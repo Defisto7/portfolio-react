@@ -6,27 +6,13 @@ import instagram from "./img/icons/instagram.svg"
 import linkedIn from "./img/icons/linkedIn.svg"
 import gitHub from "./img/icons/gitHub.svg"
 import Navbar from "./components/navbar/Navbar";
+import Header from "./components/header/Header";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <header className="header">
-        <div className="header__wrapper">
-          <h1 className="header__title">
-            <strong>
-              Hi, my name is <em>Dima</em>
-            </strong>
-            <br /> a frontend developer{" "}
-          </h1>
-          <div className="header__text">
-            <p>with passion for learning and creating.</p>
-          </div>
-          <a href="https://joyful-tulumba-e94b24.netlify.app/" className="btn">
-            My CV
-          </a>
-        </div>
-      </header>
+      <Header />
       <main className="section">
         <div className="container">
           <h2 className="title-1">Projects</h2>
