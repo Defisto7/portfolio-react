@@ -5,12 +5,14 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
 import Skills from "./pages/Skills";
+import ProjectPage from "./pages/ProjectPage";
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      <ProjectPage />
       {/* <Skills /> */}
       {/* <Contacts/> */}
       <Footer />

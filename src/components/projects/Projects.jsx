@@ -11,7 +11,7 @@ const Projects = () => {
           <h2 className="title-1">Projects</h2>
           <ul className="projects">
            {project.map(({title, img}) => {
-            return <Project title={title} img={img}/>
+            return <Project key={title} title={title} img={img}/>
            })}
           </ul>
         </div>
