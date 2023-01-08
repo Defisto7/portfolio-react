@@ -10,8 +10,8 @@ const Projects = () => {
         <div className="container">
           <h2 className="title-1">Projects</h2>
           <ul className="projects">
-           {project.map(({title, img}) => {
-            return <Project key={title} title={title} img={img}/>
+           {project.map(({title, img}, index) => {
+            return <Project key={title} title={title} img={img} link ={index}/>
            })}
           </ul>
         </div>

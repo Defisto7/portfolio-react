@@ -1,19 +1,27 @@
+import { useParams } from "react-router-dom";
+
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
-import img from "./../img/projects/01-big.jpg";
+import {project} from "./../helpers/projectsList"
+
 
 const ProjectPage = () => {
+
+  const {id} = useParams();
+  const projects = project[id];
+
   return (
     <main className="section">
       <div className="container">
         <div className="project-details">
-          <h1 className="title-1">Modern bank</h1>
+          <h1 className="title-1">{projects.title}</h1>
+          <p>{id}</p>
           <a href="https://bank-modern-app-tau.vercel.app/">
-            <img src={img} alt="" className="project-details__cover" />
+            <img src={projects.imgBig} alt={projects.title} className="project-details__cover" />
           </a>
           <div className="project-details__desc">
-            <p>Skills: Tailwind css, React</p>
+            <p>{projects.skills}</p>
           </div>
-        <BtnGitHub link="https://github.com/Defisto7/bank_modern_app"/>
+        <BtnGitHub link={projects.gitHubLink}/>
         </div>
       </div>
     </main>
