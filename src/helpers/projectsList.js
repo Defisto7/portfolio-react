@@ -17,6 +17,7 @@ const project = [
         img: project01,
         imgBig: project01Big,
         gitHubLink: 'https://github.com/Defisto7/bank_modern_app',
+        demoLink: 'https://bank-modern-app-tau.vercel.app/'
     },
     {
         title: 'Admin dashboard',
@@ -24,6 +25,7 @@ const project = [
         img: project02,
         imgBig: project02Big,
         gitHubLink: 'https://github.com/Defisto7/react-admin-dashboard',
+        demoLink: 'https://react-admin-dashboard-ivory.vercel.app/'
     },
     {
         title: 'Netflix',
@@ -31,6 +33,7 @@ const project = [
         img: project03,
         imgBig: project03Big,
         gitHubLink: 'https://github.com/Defisto7/netflix_react',
+        demoLink: 'https://netflix-react-ashy-gamma.vercel.app/'
     },
     {
         title: 'Youtube',
@@ -38,6 +41,7 @@ const project = [
         img: project04,
         imgBig: project04Big,
         gitHubLink: 'https://github.com/Defisto7/youtube_clone',
+        demoLink: 'https://youtube-clone-xi-three.vercel.app/'
     },
     {
         title: 'Game store',
@@ -45,6 +49,7 @@ const project = [
         img: project05,
         imgBig: project05Big,
         gitHubLink: 'https://github.com/Defisto7/games-store',
+        demoLink: 'https://games-store-orpin.vercel.app/'
     },
 ]
 

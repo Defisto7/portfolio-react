@@ -14,7 +14,7 @@ const ProjectPage = () => {
       <div className="container">
         <div className="project-details">
           <h1 className="title-1">{projects.title}</h1>
-          <a href="https://bank-modern-app-tau.vercel.app/">
+          <a href={projects.demoLink}>
             <img src={projects.imgBig} alt={projects.title} className="project-details__cover" />
           </a>
           <div className="project-details__desc">
