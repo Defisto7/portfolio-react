@@ -8,6 +8,8 @@ import project04 from "./../img/projects/04.jpg";
 import project04Big from "./../img/projects/04-big.jpg";
 import project05 from "./../img/projects/05.jpg";
 import project05Big from "./../img/projects/05-big.jpg";
+import project06 from "./../img/projects/06.jpg";
+import project07 from "./../img/projects/07.jpg";
 
 
 const project = [
@@ -50,6 +52,22 @@ const project = [
         imgBig: project05Big,
         gitHubLink: 'https://github.com/Defisto7/games-store',
         demoLink: 'https://games-store-orpin.vercel.app/'
+    },
+    {
+        title: 'Bejeweled',
+        skills: 'HTML, SCSS, BEM',
+        img: project06,
+        imgBig: project06,
+        gitHubLink: 'https://github.com/Defisto7/Bejeweled',
+        demoLink: 'https://defisto7.github.io/Bejeweled/'
+    },
+    {
+        title: 'Internet-store-energy',
+        skills: 'React, Redux',
+        img: project07,
+        imgBig: project07,
+        gitHubLink: 'https://github.com/Defisto7/internet-store-energy',
+        demoLink: 'https://internet-store-energy.vercel.app/'
     },
 ]
 
