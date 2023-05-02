@@ -10,9 +10,20 @@ import project05 from "./../img/projects/05.jpg";
 import project05Big from "./../img/projects/05-big.jpg";
 import project06 from "./../img/projects/06.jpg";
 import project07 from "./../img/projects/07.jpg";
+import project07Big from "./../img/projects/07-big.jpg";
+import project08 from "./../img/projects/08.jpg";
+import project08Big from "./../img/projects/08-big.jpg";
 
 
 const project = [
+    {
+        title: 'Evogym',
+        skills: 'React, Tailwind css, typescript',
+        img: project08,
+        imgBig: project08Big,
+        gitHubLink: 'https://github.com/Defisto7/gym-typescript',
+        demoLink: 'https://gym-typescript-ebon.vercel.app/'
+    },
     {
         title: 'Modern bank',
         skills: 'React, Tailwind css',
@@ -65,7 +76,7 @@ const project = [
         title: 'Internet-store-energy',
         skills: 'React, Redux',
         img: project07,
-        imgBig: project07,
+        imgBig: project07Big,
         gitHubLink: 'https://github.com/Defisto7/internet-store-energy',
         demoLink: 'https://internet-store-energy.vercel.app/'
     },
