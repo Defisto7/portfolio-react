@@ -16,8 +16,17 @@ import project10Big from "./../img/projects/10-big.jpg";
 import project11 from "./../img/projects/11.jpg";
 import project11Big from "./../img/projects/11-big.jpg";
 import project12Big from "./../img/projects/12-big.jpg";
+import project13Big from "./../img/projects/13-big.jpg";
 
 const project = [
+    {
+        title: "Car showcase",
+        skills: "React, Tailwind css, typescript",
+        img: project13Big,
+        imgBig: project13Big,
+        gitHubLink: "https://github.com/Defisto7/car_showcase",
+        demoLink: "https://car-showcase-drab.vercel.app/",
+    },
     {
         title: "Evogym",
         skills: "React, Tailwind css, typescript",
